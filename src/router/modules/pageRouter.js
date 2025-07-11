@@ -12,4 +12,4 @@ const pageRouter = {
     ]
 }
 
-export  default  pageRouter;
+export default pageRouter;
