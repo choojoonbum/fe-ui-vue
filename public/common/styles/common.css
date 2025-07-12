@@ -412,3 +412,28 @@ footer {
 .btnwrap.half .btn {
     flex-basis: 49%;
 }
+.mainbanner {
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+}
+.mainbanner > img {
+    height: 350px;
+}
+.newbook {
+    background: url("/images/content_bg.png") repeat-x;
+    padding: 40px 0;
+}
+.maintit {
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: #222;
+    font-weight: 900;
+    text-align: center;
+}
+.maintit > span {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ababab;
+}
