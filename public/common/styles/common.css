@@ -600,7 +600,20 @@ footer {
 .noticebox.full .btn-noticemore {
     transform: rotate(90deg);
 }
-
+.scrollTop {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+.scrollTop .topmenu {
+    display: none;
+}
+header.scrollTop::after {
+    position: fixed;
+    top: 22px;
+}
 
 @media screen and (max-width: 1024px) {
     .system > button {
@@ -742,5 +755,8 @@ footer {
     }
     .newsitem span {
         display: block;
+    }
+    header.scrollTop::after {
+        top: 14px;
     }
 }
