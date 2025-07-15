@@ -770,7 +770,10 @@ header.scrollTop::after {
 .detailTapCon > p {
     margin-bottom: 20px;
 }
-
+.bookpage .rollimg.active .imgbox {
+    display: block;
+    border: solid 3px #d1e0e5;
+}
 
 @media screen and (max-width: 1024px) {
     .system > button {

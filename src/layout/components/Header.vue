@@ -4,7 +4,7 @@
       <div class="contentbox">
         <div class="logo">
           <button>
-            <img src="/images/logo.png" alt="로고">
+            <img src="/images/logo.png" alt="로고" @click="goToPage('/')">
           </button>
         </div>
         <div class="system">
