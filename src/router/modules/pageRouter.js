@@ -15,6 +15,16 @@ const pageRouter = {
             name: "main",
             component: () => import("@/views/main.vue")
         },
+        {
+            path: "/reference",
+            name: "reference",
+            component: () => import("@/views/reference.vue")
+        },
+        {
+            path: "/movieclass",
+            name: "movieclass",
+            component: () => import("@/views/movieclass.vue")
+        },
         ...withPrefix("/book", [
             {
                 path: "/",
