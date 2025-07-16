@@ -848,6 +848,37 @@ header.scrollTop::after {
 .movieclasspage .btn-listdown {
     background-color: #7952b3;
 }
+.classsample .form-group:nth-of-type(1) {
+    padding-right: 0;
+}
+.classsample .form-group {
+    display: flex;
+}
+.classsample form {
+    max-width: 480px;
+    margin: 0 auto;
+}
+.classsample .form-group > label {
+    flex-basis: 130px;
+}
+.classsample .form-group > div {
+    flex: 1 1 0;
+}
+.classsample .form-group input.form-control {
+    height: 30px;
+}
+.classsample .form-group small {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.classsample .form-group:nth-of-type(1) .d-block::before { content: "\F194"; }
+.classsample .form-group:nth-of-type(2) .d-block::before { content: "\F87D"; }
+.classsample .form-group:nth-of-type(3) .d-block::before { content: "\F774"; }
+.classsample .form-group:nth-of-type(4) .d-block::before { content: "\F676"; }
+.classsample .form-group:nth-of-type(5) .d-block::before { content: "\F4E7"; }
+.classsample .form-group:nth-of-type(6) .d-block::before { content: "\F68B"; }
+.classsample .form-group:nth-of-type(7) .d-block::before { content: "\F655";}
+.classsample .form-group:nth-of-type(8) .d-block::before { content: "\F6D2";}
 
 @media screen and (max-width: 1024px) {
     .system > button {

@@ -80,7 +80,7 @@ export default {
         { menutext: "도서 소개", link: "/book"},
         { menutext: "자료실", link: "/reference"},
         { menutext: "동영상 강의", link: "/movieclass"},
-        { menutext: "교재 샘플", link: "/classsapmle"},
+        { menutext: "교재 샘플", link: "/classsample"},
         { menutext: "회사 소개", link: "/company"}
       ],
       form: {
